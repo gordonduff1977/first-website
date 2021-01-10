@@ -1,2 +1,2 @@
 # first-website
-My First Website
+This is a simple "about me" website, a first deployment.
