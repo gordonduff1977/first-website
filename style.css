@@ -1,0 +1,37 @@
+* {
+	padding: 2px;
+	margin: 0 5px 0 5px;
+}
+body {
+	background-color: #FED;
+	color: black;
+}
+h1 {
+	color: darkgreen;
+	text-shadow: 2px 2px 4px green;
+}
+li {
+	margin: 0 0 0 20px;
+}
+#chubb {
+	color: Maroon;
+	background-color: #FFD;
+}
+#sfa {
+	color: Gold;
+	background-color: #AAA;
+}
+#micron {
+	color: DarkBlue;
+	background-color: #EEF;
+}
+#micron ul {
+  position: relative;
+  list-style: none;
+}
+
+#micron li::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+}
